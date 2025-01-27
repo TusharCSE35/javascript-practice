@@ -10,7 +10,6 @@ document.querySelector("html").addEventListener("click", function(){
 */
 
 // For image change
-
 const myImage = document.querySelector("img");
 myImage.addEventListener("click", ()=>{
     const mySrc = myImage.getAttribute("src");
