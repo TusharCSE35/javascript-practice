@@ -44,3 +44,10 @@ myButton.addEventListener("click", () => {
     setUserName();
 });
 
+
+// For others button
+const button = document.querySelector(".b1");
+button.addEventListener("click", ()=>{
+    const name = prompt("Enetr your name");
+    button.textContent = `Player 1: ${name}`;
+});
